@@ -42,9 +42,10 @@ public class OdometerReadings {
 		}
 
 	public static void main(String[] args) {
-		int input = 123;
-		String inputStr = String.valueOf(input);
+	    int input = 123;
+	    String inputStr = String.valueOf(input);
 	    int len = inputStr.length();
-	    initialiseValues(len, input);
+	    int inp = Integer.valueOf(inputStr);
+	    initialiseValues(len, inp);
 	}
 }
