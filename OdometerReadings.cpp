@@ -43,8 +43,10 @@ public class OdometerReadings {
 		}
 
 	int main() {
-		String input = argsv[1];
+		int input = stoi(argsv[1]);
+		string inputStr = atoi(input);
 		int len = input.length();
-	  initialiseValues(len, input);
+		int inp = stoi(inputStr);
+	  initialiseValues(len, inp);
 	}
 }
